@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+     <h1 id="daTruth">Louis is <span id="adjective"></span>Awesome</h1>
+     <input type="button" value="Click me" onclick="alert('sike! Louis is trash')"/>
+     <input type="button" value="Activate" onclick="chillin()"/>
+     <input type="button" value="Lakers" onclick="changedSentence()"/>
+     <input type="button" value="Louis is ..." onclick="changeAdjective()"/>
+     
+     
+   </body>
+   <script>
+        function chillin(){
+         alert("This code is chillin at the bottom, waiting to be called on");
+        }
+   
+        function changedSentence(){
+        document.getElementById("daTruth").innerHTML = "Lakers Are Awesome!!!"
+        }
+        function changeAdjective(){
+        document.getElementById("adjective").innerHTML = "trash";
+        }
+   </script>
+</html>
